@@ -1,6 +1,8 @@
 
-# By Al Sweigart
-# Released under a "Simplified BSD" license
+# Original implementation by Al Sweigart
+# Modified by github.com/fullarray
+# For this game to work, you need to install pygame in windows or linux. 
+# E.g. pip install pygame-1.9.3-cp27-cp27m-win_amd64.whl
 
 import random, time, pygame, sys
 from pygame.locals import *
@@ -161,15 +163,15 @@ def main():
     DISPLAYSURF = pygame.display.set_mode((WINDOWWIDTH, WINDOWHEIGHT))
     BASICFONT = pygame.font.Font('freesansbold.ttf', 18)
     BIGFONT = pygame.font.Font('freesansbold.ttf', 100)
-    pygame.display.set_caption('Tetromino')
+    pygame.display.set_caption('Tetris Py')
 
-    showTextScreen('Tetromino')
+    showTextScreen('Tetris Py')
     while True: # game loop
         if random.randint(0, 1) == 0:
-            pygame.mixer.music.load('tetrisb.mid')
-        else:
-            pygame.mixer.music.load('tetrisc.mid')
-        pygame.mixer.music.play(-1, 0.0)
+            #pygame.mixer.music.load('tetrisb.mid')
+        #else:
+            #pygame.mixer.music.load('tetrisc.mid')
+        #pygame.mixer.music.play(-1, 0.0)
         runGame()
         pygame.mixer.music.stop()
         showTextScreen('Game Over')
