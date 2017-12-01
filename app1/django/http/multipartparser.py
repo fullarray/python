@@ -1,6 +1,5 @@
 """
 Multi-part parsing for file uploads.
-
 Exposes one class, ``MultiPartParser``, which feeds chunks of uploaded data to
 file upload handlers for processing.
 """
