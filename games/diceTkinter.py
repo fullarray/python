@@ -4,7 +4,6 @@ import random
 class DiceFrm(tkinter.Frame):
 	def __init__(self, master):
 		super().__init__(master)
-		
 		die = tkinter.Button(self, text="Roll", command=self.roll)
 		die.pack()
 		self.roll_result = tkinter.StringVar()
