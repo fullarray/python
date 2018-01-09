@@ -13,7 +13,6 @@ class polyShapeFactory:
 				eval(id + '.Factory()')
 		return ShapeFactory.factories[id].create()
 	createShape = staticmethod(createShape)
-	
 
 class Shape(object): pass
 
