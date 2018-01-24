@@ -6,6 +6,5 @@ def insertionSort(alist):
         while position>0 and alist[position-1]>currentValue:
             alist[position]=alist[position-1]
             position=position-1
-            
         alist[position]=currentValue
     return alist
