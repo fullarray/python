@@ -1,6 +1,5 @@
 #Import Library of Gaussian Naive Bayes model
 #this is the first implementation of the classifier.
-
 from sklearn.naive_bayes import GaussianNB
 import numpy as np
 
