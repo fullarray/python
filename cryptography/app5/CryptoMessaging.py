@@ -59,7 +59,7 @@ class Ui_Dialog(object):
 
     def retranslateUi(self, Dialog):
         _translate = QtCore.QCoreApplication.translate
-        Dialog.setWindowTitle(_translate("Dialog", "Cryptographic Messaging Tool  by Jonathan Herrera"))
+        Dialog.setWindowTitle(_translate("Dialog", "Cryptographic Messaging Tool by fullarray"))
         self.pushButtonSendEncryptedMessage.setText(_translate("Dialog", "Send Encrypted Message"))
         self.pushButtonReceiveDecryptedMessage.setText(_translate("Dialog", "Receive Decrypted Message"))
         self.labelCipherTextLog.setText(_translate("Dialog", "Cipher Log"))
