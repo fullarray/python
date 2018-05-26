@@ -2,12 +2,9 @@
 Helper functions for creating Form classes from Django models
 and database field objects.
 """
-
 from __future__ import unicode_literals
-
 from collections import OrderedDict
 from itertools import chain
-
 from django.core.exceptions import (
     NON_FIELD_ERRORS, FieldError, ImproperlyConfigured, ValidationError,
 )
