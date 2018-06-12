@@ -79,8 +79,7 @@ def Ref():
     Tax.set(PaidTax)
     Subtotal.set(costofmeal)
     Total.set(OverAllCost)
-
-
+    
 def qexit():
     root.destroy()
 
