@@ -9,8 +9,6 @@ button1.pack()
 button1.bind('<Button-1>',stopProg)
 root.mainloop()
 
-
-
 from tkinter import *
 from Crypto.Cipher import AES
 
@@ -21,7 +19,7 @@ def Encrypt(e):
 
 #Decrypt
 def Decrypt(e):
-    #obj = AES.new('This is a key123', AES.MODE_CBC, 'This is an IV456')
+    #obj = AES.new('This is a key123567', AES.MODE_CBC, 'This is an IV456')
     label1.configure(text="Encrypt", fg="red")
 
 #Import tkinter library into the program   
