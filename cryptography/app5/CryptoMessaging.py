@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'C:\Users\swb\Documents\Projects\py\Crypto Messaging.ui'
+# Form implementation generated from reading ui file 'C:\Users\xxxxx\Documents\Projects\py\Crypto Messaging.ui'
 #
 # Created by: PyQt5 UI code generator 5.10.1
 #
