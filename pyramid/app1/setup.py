@@ -33,7 +33,7 @@ setup(
         'Topic :: Internet :: WWW/HTTP',
         'Topic :: Internet :: WWW/HTTP :: WSGI :: Application',
     ],
-    author='',
+    author='fullarray',
     author_email='',
     url='',
     keywords='web pyramid pylons',
