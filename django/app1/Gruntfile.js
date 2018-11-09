@@ -1,5 +1,4 @@
 var globalThreshold = 50;  // Global code coverage threshold (as a percentage)
-
 module.exports = function(grunt) {
     grunt.initConfig({
         // Configuration to be run (and then tested).
@@ -13,7 +12,6 @@ module.exports = function(grunt) {
             }
         }
     });
-
     grunt.loadNpmTasks('grunt-blanket-qunit');
     grunt.registerTask('test', ['blanket_qunit']);
     grunt.registerTask('default', ['test']);
