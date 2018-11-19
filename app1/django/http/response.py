@@ -27,7 +27,6 @@ _charset_from_content_type_re = re.compile(r';\s*charset=(?P<charset>[^\s;]+)', 
 class BadHeaderError(ValueError):
     pass
 
-
 class HttpResponseBase(six.Iterator):
     """
     An HTTP response base class with dictionary-accessed headers.
