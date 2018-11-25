@@ -13,8 +13,6 @@ data = data.values
 
 pyplot.plot(data['sp500'])
 
-
-
 #Training and test data
 train_stat = 0
 train_end = int(np.floor(0.8*n))
