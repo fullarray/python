@@ -2,5 +2,4 @@
 list = ["CS", "MAC", "PHY"]
 
 list.insert(2, "COP")
-
 print(list)
