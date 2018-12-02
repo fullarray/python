@@ -5,7 +5,7 @@
 #libpython
 #m2w64-toolchain
 
-#pip specific
+#pip specifics
 theano
 numpy
 scipy
