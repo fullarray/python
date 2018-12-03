@@ -17,6 +17,7 @@ class Square(Shape):
 
 def shapeNameGen(n):
 	types = Shape.__subclasses__()
+	
 	for i in range(n):
 		yield random.choice(types).__name__
 
