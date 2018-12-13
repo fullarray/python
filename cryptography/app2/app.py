@@ -9,8 +9,6 @@ button1.pack()
 button1.bind('<Button-1>',stopProg)
 root.mainloop()
 
-
-
 from tkinter import *
 from Crypto.Cipher import AES
 
