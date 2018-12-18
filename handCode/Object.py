@@ -27,7 +27,7 @@ class Employee(Person):
 		return "Employee: "+ super().__str__() + ", " + str(self.staffno)
 
 
-person1 = Person("John", "Doe", 60);
+person1 = Person("John", "Ray", 60);
 person1.setFirst('Mark')
 person1.setLast('Smith')
 
