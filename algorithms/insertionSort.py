@@ -9,3 +9,4 @@ def insertionSort(alist):
         
         alist[position]=currentValue
     return alist
+
