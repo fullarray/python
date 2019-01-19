@@ -11,7 +11,6 @@ class DiceFrm(tkinter.Frame):
 		label.pack()
 		self.pack()
 
-
 	def roll(self):
 		self.roll_result.set(random.randint(1, 6))
 
