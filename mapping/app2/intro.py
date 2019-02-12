@@ -8,7 +8,7 @@ from scapy.all import PcapReader
 # Let's iterate through every packet
 #for packet in packets:
 #    print(packet)
-#packets.summary()
+packets.summary()
 
 with PcapReader('smtp.pcap') as pcap_reader:
  for pkt in pcap_reader:
