@@ -34,7 +34,6 @@ class LinearRegression(Object):
 		y = lin_reg.predict(x)
 		plt.plot(x, y, 'r--', label='r = %.2f' % lin_reg.rho)
 		plt.legend()
-		
 		plt.show()
 		
 
