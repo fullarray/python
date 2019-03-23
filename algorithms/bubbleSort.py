@@ -10,7 +10,7 @@ def bubbleSorting(myNumList):
                 myNumList[element+1]=temp
     return myNumList
 
-#This is the main program
+#This is the main driver program
 def bubbleSortingTest():
     myNumList = [4,5,3,9,29,3,4,65]
     sortedList = bubbleSorting(myNumList)
