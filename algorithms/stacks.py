@@ -1,6 +1,6 @@
 class Stack:
      def __init__(self):
-         '''Initialize the empty array in the constructor
+         '''Initialize the empty array in the constructors
          self.items = []
 
      def isEmpty(self):
