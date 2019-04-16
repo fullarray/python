@@ -16,7 +16,6 @@ class polyShapeFactory:
 
 class Shape(object): pass
 
-
 class Circle(Shape):
 	def draw(self): print("Circle.draw")
 	def erase(self): print("Circle.erase")
