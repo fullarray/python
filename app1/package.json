@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "pretest": "eslint django/",
-    "test": "grunt test --verbose"
+    "test": "grunt test"
   },
   "devDependencies": {
     "eslint": "^0.22.1",
