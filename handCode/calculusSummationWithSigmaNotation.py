@@ -1,4 +1,4 @@
-## Calculus area summation with sigma notation
+## Calculus area summation with sigma notations
 
 def sum(l):
     sum = 0
