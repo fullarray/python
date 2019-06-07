@@ -2,7 +2,6 @@ import copy
 
 class Prototype:
 	pass
-
 	
 def main():
 	prototype = Prototype()
