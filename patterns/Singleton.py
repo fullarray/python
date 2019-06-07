@@ -14,7 +14,7 @@ class SampleClass(metaclass=Singleton):
 def main():
 	o1 = SampleClass()
 	o2 = SampleClass()
-	assert o1 is o2
+	assert o1 is o3
 	
 if __name__ == "__main__":
 	main()
