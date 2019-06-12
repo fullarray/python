@@ -18,7 +18,6 @@ def image_to_feature_vector(image, size=(32, 32)):
 	# a list of raw pixel intensities
 	return cv2.resize(image, size).flatten()
 
-	
 #A simple neural network with Python and Keras Python
 # construct the argument parse and parse the arguments
 ap = argparse.ArgumentParser()
