@@ -17,6 +17,7 @@ class LinearRegression(Object):
 		squared_errors_x = np.sum(errora_x ** 2)
 		
 		self.w = errors_product_xy / squared_errors_x
+		
 		self.b = mean_y - self.w * mean_x
 		
 		N = len(X)
@@ -26,8 +27,8 @@ class LinearRegression(Object):
 		self.rho = cov / (std_x * std_y)
 	
 	def visualize_solution(X, y, lin_reg):
-		plt.xlabel('Number of shares')
-		plt.ylabel('Number of likes')
+		plt.xlabel('Number of share')
+		plt.ylabel('Number of like')
 		plt.scatter(X, y)
 		
 		x = np.arange(0, 800)
