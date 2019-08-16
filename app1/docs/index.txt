@@ -5,14 +5,14 @@
 Django documentation
 ====================
 
-.. rubric:: Everything you need to know about Django.
+.. rubric:: Everything you need to know about Django
 
 Getting help
 ============
 
 Having trouble? We'd like to help!
 
-* Try the :doc:`FAQ <faq/index>` -- it's got answers to many common questions.
+* Try the :doc:`FAQ <faq/index>` - it's got answers to many common questions.
 
 * Looking for specific information? Try the :ref:`genindex`, :ref:`modindex` or
   the :doc:`detailed table of contents <contents>`.
