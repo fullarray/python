@@ -16,12 +16,10 @@
   </property>
   <property name="contextMenuPolicy">
    <enum>Qt::DefaultContextMenu</enum>
-  </property>
-  <property name="acceptDrops">
+  </property>  <property name="acceptDrops">
    <bool>false</bool>
-  </property>
-  <property name="windowTitle">
-   <string>Cryptographic Messaging Tool  by Jonathan Herrera</string>
+  </property><property name="windowTitle">
+   <string>Cryptographic Messaging Tool  by Jonathan H. and fullarray</string>
   </property>
   <property name="sizeGripEnabled">
    <bool>true</bool>
