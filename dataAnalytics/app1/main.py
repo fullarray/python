@@ -16,7 +16,7 @@ def load_dataset():
 			
 	return X, y
 
-#Visualize datasets
+#Visualize dataset
 def visualize_dataset(X, y):
 	plt.xlabel('Number of shares')
 	plt.ylabel('Number of likes')
