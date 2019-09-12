@@ -30,6 +30,7 @@ class Employee(Person):
 person1 = Person("John", "Ray", 60);
 person1.setFirst('Mark')
 person1.setLast('Smith')
+person1.setLast('Goers')
 
 employee1 = Employee("Maria", "Morales", 50, 44555)
 person1.jumps(20)
