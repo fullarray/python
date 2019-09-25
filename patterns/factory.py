@@ -16,8 +16,7 @@ class Square(Shape):
 	def erase(self): print("Square.erase")
 
 def shapeNameGen(n):
-	types = Shape.__subclasses__()
-	
+	types = Shape.__subclasses__()	
 	for i in range(n):
 		yield random.choice(types).__name__
 
