@@ -1,5 +1,5 @@
 
-//Add random strings to find value later
+//Add random strings to find value laters
 list = ['Calculus for Scientists', 'Algorithm Design', 2015, 2016];
 
 print "Value of index 2 : "
