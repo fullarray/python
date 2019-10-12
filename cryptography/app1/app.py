@@ -8,11 +8,10 @@ button1=Button(root,
 button1.pack()
 button1.bind('<Button-1>',stopProg)
 root.mainloop()
-
 from tkinter import *
 from Crypto.Cipher import AES
 
-#Encrypts
+#Encryptss
 def Encrypt(e):
     label1.configure(text="Decrypt", fg="green")
     #root.destroy()
