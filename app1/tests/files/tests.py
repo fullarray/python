@@ -7,7 +7,6 @@ import struct
 import tempfile
 import unittest
 from io import BytesIO, StringIO
-
 from django.core.files import File
 from django.core.files.base import ContentFile
 from django.core.files.move import file_move_safe
@@ -16,7 +15,6 @@ from django.core.files.uploadedfile import SimpleUploadedFile, UploadedFile
 from django.test import mock
 from django.utils import six
 from django.utils._os import upath
-
 try:
     from PIL import Image
 except ImportError:
