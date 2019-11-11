@@ -10,7 +10,7 @@ def linearSearch(myItem, myList):
     return found
 
 if __name__=="__main__":
-    shopping = ["tshirts", "shoes","pants","socks"]
+    shopping = ["tshirts", "shoes","pants","socks","books"]
     print("Welcome to our friendly store.")
     print("In-stock now: ")
     print(shopping)
