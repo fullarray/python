@@ -15,7 +15,7 @@ import itertools
 import matplotlib.pyplot as plt
 %matplotlit inline
 
-#set the paths
+#set the path
 train_path = 'cats-and-dogs/train'
 valid_path = 'cats-and-dogs/valid'
 test_path = 'cats-and-dogs/test'
