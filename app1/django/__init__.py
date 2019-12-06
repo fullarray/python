@@ -4,7 +4,6 @@ VERSION = (1, 9, 0, 'alpha', 0)
 
 __version__ = get_version(VERSION)
 
-
 def setup():
     """
     Configure the settings (this happens as a side effect of accessing the
