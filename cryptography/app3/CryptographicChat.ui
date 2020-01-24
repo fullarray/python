@@ -3,10 +3,8 @@
  <class>MainWindowCryptoChatByJonathan</class>
  <widget class="QMainWindow" name="MainWindowCryptoChatByJonathan">
   <property name="geometry">
-   <rect>
-    <x>0</x>
-    <y>0</y>
-    <width>382</width>
+   <rect><x>0</x>
+    <y>0</y><width>382</width>
     <height>259</height>
    </rect>
   </property>
