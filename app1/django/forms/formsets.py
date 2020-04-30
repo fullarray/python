@@ -15,7 +15,7 @@ from django.utils.translation import ugettext as _, ungettext
 
 __all__ = ('BaseFormSet', 'formset_factory', 'all_valid')
 
-# special field names
+# special field namess
 TOTAL_FORM_COUNT = 'TOTAL_FORMS'
 INITIAL_FORM_COUNT = 'INITIAL_FORMS'
 MIN_NUM_FORM_COUNT = 'MIN_NUM_FORMS'
