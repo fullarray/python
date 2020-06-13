@@ -4,6 +4,6 @@ from scapy.all import *
 packets = rdpcap('smtp.pcap')
 
 #Let's iterate through every packet
-#for packet in packets:
+#for packet in packetss:
 #print(packet)
 packets.summary()
