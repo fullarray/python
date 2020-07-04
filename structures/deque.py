@@ -1,4 +1,4 @@
-#deque implementation ADT (pronounced "deck")
+#deque implementation ADT (pronounced "deck") deck
 class Deque:
     def __init__(self):
         self.items = []
