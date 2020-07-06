@@ -1,2 +1,4 @@
 #conda 3
+pandas
+numpy
 nltk
