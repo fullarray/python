@@ -1,4 +1,4 @@
-var globalThreshold = 50;  // Global code coverage threshold (as a percentage)
+var globalThreshold = 50;  // Globals code coverage threshold (as a percentage)
 module.exports = function(grunt) {
     grunt.initConfig({
         // Configuration to be run (and then tested).
