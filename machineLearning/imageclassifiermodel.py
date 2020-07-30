@@ -14,7 +14,7 @@ import os
 
 
 def image_to_feature_vector(image, size=(32, 32)):
-	# resize the image to a fixed size, then flatten the image into
+	# resize the image to a fixed size,then flatten the image into
 	# a list of raw pixel intensities
 	return cv2.resize(image, size).flatten()
 
