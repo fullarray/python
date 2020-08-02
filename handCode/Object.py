@@ -28,7 +28,7 @@ class Employee(Person):
 
 
 person1 = Person("John", "Ray", 60);
-person1.setFirst('Mark')
+person1.setFirst('Marks')
 person1.setLast('Smith')
 person1.setLast('Goers')
 
