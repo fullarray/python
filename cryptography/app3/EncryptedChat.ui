@@ -4,13 +4,10 @@
  <class>Dialog</class>
  <widget class="QDialog" name="Dialog">
   <property name="geometry">
-   <rect>
-    <x>0</x>
-    <y>0</y>
-    <width>399</width>
+   <rect>    <x>0</x>
+    <y>0</y>    <width>399</width>
     <height>510</height>
-   </rect>
-  </property>
+   </rect>  </property>
   <property name="contextMenuPolicy">
    <enum>Qt::ActionsContextMenu</enum>
   </property>
@@ -178,9 +175,7 @@
   </property>
   <property name="gridSnapY">
    <bool>true</bool>
-  </property>
-  <property name="gridVisible">
-   <bool>true</bool>
-  </property>
+  </property>  <property name="gridVisible">
+   <bool>true</bool>  </property>
  </designerdata>
 </ui>
