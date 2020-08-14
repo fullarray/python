@@ -1,7 +1,5 @@
 #! /bin/sh
-#
 # This file becomes the install section of the generated spec file.
-#
 
 # This is what dist.py normally does.
 %{__python} setup.py install --root=${RPM_BUILD_ROOT} --record="INSTALLED_FILES"
