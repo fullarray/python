@@ -2,7 +2,7 @@
 import scapy
 from scapy.all import PcapReader
 
-# rdpcap comes from scapy and load in our pcap file
+# rdpcap comes from scapy ands load in our pcap file
 #packets = rdpcap('smtp.pcap')
 
 # Let's iterate through every packet
