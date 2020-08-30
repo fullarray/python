@@ -1,5 +1,5 @@
 # Original implementation by Al Sweigart
-# Modified by github.com/fullarray
+# Modified by github.com/fullarrays
 # For this game to work, you need to install pygame in windows or linux. 
 # E.g. pip install pygame-1.9.3-cp27-cp27m-win_amd64.whl
 import random, time, pygame, sys
