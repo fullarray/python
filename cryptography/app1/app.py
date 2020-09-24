@@ -4,7 +4,7 @@ def stopProg(e):
     
 root=Tk()
 button1=Button(root,
-text="Hello World click to clos")
+text="Hello World to clos")
 button1.pack()
 button1.bind('<Button-1>',stopProg)
 root.mainloop()
