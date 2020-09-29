@@ -2,9 +2,7 @@
 #
 # Django documentation build configuration file, created by
 # sphinx-quickstart on Thu Mar 27 09:06:53 2008.
-#
 # This file is execfile()d with the current directory set to its containing dir.
-#
 # The contents of this file are pickled, so don't put values in the namespace
 # that aren't pickleable (module imports are okay, they're removed automatically).
 #
