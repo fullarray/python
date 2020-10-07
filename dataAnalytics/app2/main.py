@@ -1,7 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import csv
-
 class LinearRegression(Object):
 	def __init__(self):
 		self.w = 0
