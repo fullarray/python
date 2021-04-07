@@ -1,5 +1,8 @@
+
 #get libraries in the current environment
+
 import scapy
+
 from scapy.all import PcapReader
 
 # rdpcap comes from scapy ands load in our pcap file
