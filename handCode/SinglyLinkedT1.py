@@ -5,7 +5,6 @@ class Node:
 	
 	def getData(self):
 		return self.data
-	
 	def setData(self, val):
 		self.data = val
 	
