@@ -1,6 +1,8 @@
 #For this to work and if Windows os is used, the wheel at http://www.lfd.uci.edu/~gohlke/pythonlibs/#curses
 #need to be installs first before running. e.g. pip install curses-2.2-cp27-none-win_amd64.whl 
+
 import random
+
 import curses
 
 s = curses.initscr()
