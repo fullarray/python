@@ -5,6 +5,7 @@ import sqlite3
 def studentData():
     
     con=sqlite3.connect("student.db")
+    
     cur.execute("CREATE TABLE IF NOT EXISTS student \
                 (id INTEGER PRIMARY key,  \
                  StdID text,  \
