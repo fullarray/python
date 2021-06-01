@@ -1,8 +1,11 @@
 # These implementations of the linear search algorithm works only with Python36
 
 def linearSearch(myItem, myList):
+    
     found = False
+    
     position = 0
+    
     while position < len(myList) and not found:
         if myList[position] == myItem:
             found = True
