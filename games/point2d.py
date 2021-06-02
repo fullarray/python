@@ -1,5 +1,5 @@
 import math
-''' Drawings a dot in 2-dss '''
+''' Drawings a dot in 2-ds '''
 class point:
 	def __init__(self, x=0, y=0):
 		self.move(x, y)
