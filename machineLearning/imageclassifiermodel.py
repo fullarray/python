@@ -1,6 +1,8 @@
 # import the necessary packages
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
+
+
 from keras.models import Sequential
 from keras.layers import Activation
 from keras.optimizers import SGD
