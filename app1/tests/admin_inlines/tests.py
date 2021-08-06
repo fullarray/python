@@ -14,7 +14,9 @@ from django.utils.encoding import force_text
 
 from .admin import InnerInline, site as admin_site
 from .models import (
-    Author, BinaryTree, Book, Chapter, Child, ChildModel1, ChildModel2,
+    Author, BinaryTree, 
+    Book, Chapter, Child, 
+    ChildModel1, ChildModel2,
     Fashionista, FootNote, Holder, Holder2, Holder3, Holder4, Inner, Inner2,
     Inner3, Inner4Stacked, Inner4Tabular, Novel, OutfitItem, Parent,
     ParentModelWithCustomPk, Person, Poll, Profile, ProfileCollection,
