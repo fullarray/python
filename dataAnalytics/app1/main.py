@@ -5,6 +5,7 @@ import csv
 
 #Load the dataset and parse it
 def load_dataset():
+	
 	num_rows = sum(1 for line in open('Facebook_metrics\\dataset_Facebook.csv')) - 1
 	X = np.zeros((num_rows, 1))
 	y = np.zeros((num_rows, 1))
