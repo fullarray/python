@@ -1,9 +1,6 @@
 import sqlite3
 #backend
-
-
-def studentData():
-    
+def studentData():    
     con=sqlite3.connect("student.db")
     
     cur.execute("CREATE TABLE IF NOT EXISTS student \
