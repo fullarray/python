@@ -3,8 +3,11 @@ from __future__ import unicode_literals
 from functools import partial
 
 from django.contrib.admin.checks import InlineModelAdminChecks
+
 from django.contrib.admin.options import InlineModelAdmin, flatten_fieldsets
+
 from django.contrib.contenttypes.fields import GenericForeignKey
+
 from django.contrib.contenttypes.forms import (
     BaseGenericInlineFormSet, generic_inlineformset_factory,
 )
