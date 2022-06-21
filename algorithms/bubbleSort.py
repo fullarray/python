@@ -1,9 +1,7 @@
 def bubbleSorting(myNumList):
     moreSwaps = True
     while moreSwaps:
-        
         moreSwaps = False
-        
         for element in range(len(myNumList)-1):
             if myNumList[element] > myNumList[element+1]:
                 moreSwaps = True
